@@ -7,6 +7,7 @@ buildscript {
         mysqlVersion = "6.0.6"
         springCloudDependenciesVersion = "Edgware.RELEASE"
         springCloudServicesVersion = "1.6.4.RELEASE"
+        springCloudSsoVersion = "2.0.0.RELEASE"
     }
 
     repositories {
@@ -33,7 +34,7 @@ subprojects {
         jcenter()
     }
 
-    dependencies { 
+    dependencies {
         compile "com.fasterxml.jackson.core:jackson-core:2.8.4"
         compile "com.fasterxml.jackson.core:jackson-databind:2.8.4"
         compile "com.fasterxml.jackson.core:jackson-annotations:2.8.4"
