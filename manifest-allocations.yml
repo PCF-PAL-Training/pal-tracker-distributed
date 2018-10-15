@@ -6,11 +6,9 @@ applications:
   memory: 1G
   instances: 1
   env:
-    #REGISTRATION_SERVER_ENDPOINT: http://registration-pal-madan-kevin.apps.pikes.pal.pivotal.io
-    GRANT_TYPE=client_credentials
-    SECURITY_USER_NAME=actuator
-    SECURITY_USER_PASSWORD=operations4red
-
+    GRANT_TYPE: client_credentials
+    SECURITY_USER_NAME: actuator
+    SECURITY_USER_PASSWORD: operations4red
   services:
   - tracker-allocations-database
   - tracker-service-registry
